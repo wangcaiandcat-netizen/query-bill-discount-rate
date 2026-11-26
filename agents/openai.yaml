@@ -1,0 +1,6 @@
+interface:
+  display_name: "票据直贴利率快速查询"
+  short_description: "查询六档直贴基准，按承兑行与票额估价，按需查看历史走势"
+  default_prompt: "使用 $query-bill-discount-rate 根据票面或手工要素查询最新直贴参考利率和利息。"
+policy:
+  allow_implicit_invocation: true
